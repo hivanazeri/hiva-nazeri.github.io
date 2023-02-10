@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.navigation{
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.icon1{
+    height: calc(8px + 0.5vw);
+    width: calc(8px + 0.5vw);
+    cursor: pointer;
+}
+
+.icon2{
+    height: calc(20px + 0.5vw);
+    width: calc(20px + 0.5vw);
+    cursor: pointer;
+}
+
+.icon3{
+    height: calc(20px + 0.5vw);
+    width: calc(20px + 0.5vw);
+    cursor: pointer;
+}
+
+.icon1{
+    filter: opacity(60%);
+    transition: all 200ms ease 0s;
+}
+ 
+.icon1:hover{
+    filter: opacity(100%);
+}
+
+.icon2{
+    filter: opacity(60%);
+    transition: all 200ms ease 0s;
+}
+ 
+.icon2:hover{
+    filter: opacity(100%);
+}
+
+.icon3{
+    filter: opacity(60%);
+    transition: all 200ms ease 0s;
+}
+ 
+.icon3:hover{
+    filter: opacity(100%);
+}
+
+.p1{
+    font-weight: bold;
+}
+
+.customheight{
+    height: 500px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+
+@media all and (min-width:0px) and (max-width:575px){
+
+}
+
+@media all and (min-width:576px) and (max-width:767px){
+    
+}
+
+@media all and (min-width:768px) and (max-width:991px){
+.bg1 {
+    background-image: url("../images/5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (min-width:992px){
+.bg1 {
+    background-image: url("../images/5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+}
