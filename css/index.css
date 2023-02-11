@@ -68,13 +68,23 @@ body{
     margin: 0px 0px;
 }
 
+.customWidth{
+    width: calc(30vw);
+}
 
 @media all and (min-width:0px) and (max-width:575px){
+    .customDisplay{
+        font-size: 25px;
+        margin-top: 25px;
+    }
 
 }
 
 @media all and (min-width:576px) and (max-width:767px){
-    
+    .customDisplay{
+        font-size: 25px;
+        margin-top: 25px;
+    }
 }
 
 @media all and (min-width:768px) and (max-width:991px){
