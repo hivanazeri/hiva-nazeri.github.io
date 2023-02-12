@@ -9,52 +9,13 @@ body{
     font-family: sans-serif;
 }
 
-.navigation{
-    border-bottom: 1px solid rgb(238, 238, 238);
-}
-
-.icon1{
-    height: calc(8px + 0.5vw);
-    width: calc(8px + 0.5vw);
-    cursor: pointer;
-}
-
-.icon2{
-    height: calc(20px + 0.5vw);
-    width: calc(20px + 0.5vw);
-    cursor: pointer;
-}
-
-.icon3{
-    height: calc(20px + 0.5vw);
-    width: calc(20px + 0.5vw);
-    cursor: pointer;
-}
-
 .icon1{
     filter: opacity(60%);
     transition: all 200ms ease 0s;
+    width: 20px;
 }
  
 .icon1:hover{
-    filter: opacity(100%);
-}
-
-.icon2{
-    filter: opacity(60%);
-    transition: all 200ms ease 0s;
-}
- 
-.icon2:hover{
-    filter: opacity(100%);
-}
-
-.icon3{
-    filter: opacity(60%);
-    transition: all 200ms ease 0s;
-}
- 
-.icon3:hover{
     filter: opacity(100%);
 }
 
@@ -123,6 +84,27 @@ body{
     margin-top: 100px;
     }
 
+
+    .underlineClass {
+        color:rgb(210, 210, 210);
+        transition: all 200ms linear 0s;
+    }
+    
+    .underlineClass:hover {
+        color:rgb(255, 255, 255);
+    }
+    
+    .underlineClass::after {
+        content: "";
+        display: block;
+        transition: all 200ms linear 0s;
+    }
+    
+    .underlineClass:hover::after {
+        border-bottom: 1px solid black;
+    }
+    
+
 }
 
 @media all and (min-width:992px) and (max-width:1199px){
@@ -139,6 +121,27 @@ body{
     margin: 0px auto;
 }
     
+
+.underlineClass {
+    color:rgb(210, 210, 210);
+    transition: all 200ms linear 0s;
+}
+
+.underlineClass:hover {
+    color:rgb(255, 255, 255);
+}
+
+.underlineClass::after {
+    content: "";
+    display: block;
+    transition: all 200ms linear 0s;
+}
+
+.underlineClass:hover::after {
+    border-bottom: 1px solid black;
+}
+
+
 }
 
 @media all and (min-width:1200px){
@@ -155,4 +158,39 @@ body{
         margin: 0px auto;
     }
         
+
+
+    .underlineClass {
+        color:rgb(210, 210, 210);
+        transition: all 200ms linear 0s;
     }
+    
+    .underlineClass:hover {
+        color:rgb(255, 255, 255);
+    }
+    
+    .underlineClass::after {
+        content: "";
+        display: block;
+        transition: all 200ms linear 0s;
+    }
+    
+    .underlineClass:hover::after {
+        border-bottom: 1px solid black;
+    }
+    
+}
+
+.bg-gray{
+    background-color: rgb(250,250, 250);
+}
+
+.opacity{
+    filter: opacity(80%);
+    transition: all 200ms ease 0s;
+    cursor: pointer;
+}
+ 
+.opacity:hover{
+    filter: opacity(100%);
+}
