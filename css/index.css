@@ -97,6 +97,14 @@ body{
     margin-top: 100px;
     }
 
+    .h50{
+        height: 30vh;
+    }
+
+    .imgh{
+        width: 15%;
+        margin: 0px auto;
+    }
 
     .underlineClass {
         color:rgb(210, 210, 210);
@@ -140,6 +148,16 @@ body{
     cursor: pointer;
 }
     
+.h50{
+    height: 30vh;
+
+} 
+
+.imgh{
+    width: 15%;
+    margin: 0px auto;
+}
+
 
 .underlineClass {
     color:rgb(210, 210, 210);
@@ -178,7 +196,14 @@ body{
         cursor: pointer;
     }
         
+    .h50{
+        height: 30vh;
+    }
 
+    .imgh{
+        width: 15%;
+        margin: 0px auto;
+    }
 
     .underlineClass {
         color:rgb(210, 210, 210);
@@ -216,5 +241,31 @@ body{
 }
 
 .bg2{
-    background-image: url("../images/25.jpg");
+    /* background-image: url("../images/25.jpg"); */
+    background-color: rgb(245, 245, 245);
+}
+
+.cp{
+    cursor: pointer;
+}
+
+.customClass{
+    cursor: pointer;
+    color: rgb(68, 68, 68);
+}
+
+.customClass h4{
+    font-weight: 700;
+}
+
+.customClass:hover{
+    color: rgb(114, 114, 114); 
+    transition: all 100ms linear 0s;
+}
+
+.ul1{
+    color: rgb(125, 125, 125);
+}
+ul {
+  list-style-type: none;
 }
