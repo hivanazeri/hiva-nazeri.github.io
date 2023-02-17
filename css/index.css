@@ -51,7 +51,7 @@ body{
     .textAlignCenter{
         text-align: center;
     }
-
+    
     .imgh{
         width: 5vw;
         height: max-content;
@@ -72,6 +72,10 @@ body{
 
     .h50{
         height: 40vh;
+    }
+
+    .h55{
+        height: 55vw;
     }
 
     .imgh{
@@ -133,16 +137,19 @@ body{
     }
         
     .h50{
-        width: 40vw;
-        height: 40vh;
-        padding: 1vh 10vw;
+        width: 20vw;
+        height: 50vh;
+        padding: 0px 2px;
+        margin-top: -20px;
     } 
 
     .imgh{
         width: 5vw;
         margin: 0px auto;
     }
-
+    .mb-lg-custom{
+        margin-bottom: 35px;
+    }
     h4{
         font-size: 20px;
         text-align: center;
@@ -194,7 +201,7 @@ body{
         
     .h50{
         height: 40vh;
-        padding: 0px 10vw;
+        margin-bottom: 15vh;
     }
 
     .imgh{
@@ -227,10 +234,16 @@ body{
     .emza{
         margin-top: 7px;
     }
-
-
     .textAlignCenter{
         text-align: center;
+    }
+    .textAlignP{
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .textAlignP1{
+        margin:-30px 0px;
+        padding-bottom: 100px;
     }
 
 }
